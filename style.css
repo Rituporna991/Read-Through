@@ -1,0 +1,695 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+
+nav{
+    background-color: bisque;
+    display: flex;
+   
+    height: 100px;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+    font-family: 'Yanone Kaffeesatz';
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#read a{
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-family: 'Yanone Kaffeesatz';
+    color: brown;
+}
+#read a:hover{
+    color: cornflowerblue;
+}
+#index a:hover{
+    color: cornflowerblue;
+}
+#about a:hover{
+    color: cornflowerblue;
+}
+#about a{
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-family: 'Yanone Kaffeesatz';
+    color: brown;
+}
+#index a{
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-family: 'Yanone Kaffeesatz';
+    color: brown;
+}
+
+.intro{
+    text-align: center;
+    min-height: 75vh;
+    padding: 0% 10%;
+}
+
+.image{
+    padding-top: 60px;
+}
+.written{
+    padding-top: 30px;
+    font-family: 'Merienda';
+    font-size: 1.2rem;
+}
+.footer{
+    background-color:#d6d32f ;
+    height:100px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footeritems{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: space-between;
+}
+.contactme{
+    padding-right: 30px;
+}
+
+
+.contactme ul{
+    display:flex ;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+#fb{
+    padding-right: 15px;
+    font-size: 1.2rem;
+}
+ #fb a:hover{
+    color:cornflowerblue;
+}
+#ig a:hover{
+    color:cornflowerblue;
+}
+#tw a:hover{
+    color:cornflowerblue;
+} 
+#ig{
+    padding-right: 15px;
+    font-size: 1.2rem;
+}
+#tw{
+    font-size: 1.2rem;
+}
+
+.end{
+    padding-left: 30px;
+    font-size: 1.7rem;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Satisfy', cursive;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+/*        Read        */
+
+.content{
+    min-height: 70vh;
+
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.maincontainer1{
+	position: relative;
+	width: 310px;
+	height: 400px;
+	margin:  100px 80px 0px 0px;
+	background: transparent;
+    border-radius: 20px;
+    
+}
+.card{
+	position: absolute;
+	width: 310px;
+	height: 400px;
+	text-align: center;
+	transform-style: preserve-3d;
+	transition: all 0.8s ease;
+    border-radius: 20px;
+    
+
+}
+.card:hover{
+	transform: rotateY(180deg);
+}
+.front{
+	position: absolute;
+	width: 310px;
+	height: 400px;
+	backface-visibility: hidden;
+	background:yellow ;
+    border-radius: 20px;
+    display:fex;
+    align-items: center;
+}
+.back{
+	position: absolute;
+	width: 310px;
+	height: 400px;
+	backface-visibility: hidden;
+	background:#45de52 ;
+	transform: rotateY(180deg);
+    text-align: center;
+    border-radius: 20px;
+}
+
+.imagefor1{
+    margin-left: 50px;
+    margin-top: 90px;
+    object-fit: contain;
+}
+
+.second{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.maincontainer2{
+	position: relative;
+	width: 380px;
+	height: 510px;
+	margin-top: 100px;
+	margin-left: 80px;
+	background: transparent;
+    border-radius: 20px;
+    
+}
+
+
+.poem1{
+    padding-top: 20px;
+    font-family: 'Patrick Hand';
+}
+.titlepoem{
+    padding-top: 40%;
+    
+    align-items: center;
+    font-family: 'Acme';
+    font-size: 1.8rem;
+
+}
+
+
+.card2{
+	position: absolute;
+	width: 380px;
+	height: 510px;
+	text-align: center;
+	transform-style: preserve-3d;
+	transition: all 0.8s ease;
+    border-radius: 20px;
+
+}
+.card2:hover{
+	transform: rotateY(180deg);
+}
+.front2{
+	position: absolute;
+	width: 380px;
+	height: 510px;
+	backface-visibility: hidden;
+	background:#45de52 ;
+    border-radius: 20px;
+   
+}
+.back2{
+	position: absolute;
+	width: 380px;
+	height: 510px;
+	backface-visibility: hidden;
+	background:yellow ;
+	transform: rotateY(180deg);
+    text-align: center;
+    border-radius: 20px;
+}
+
+.poem2{
+    padding-top: 20px;
+    font-family: 'Patrick Hand';
+}
+
+.imagefor2{
+    margin-top: 100px;
+}
+
+.third{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.maincontainer3{
+	position: relative;
+	width: 350px;
+	height: 480px;
+	margin-top: 100px;
+	margin-right: 50px;
+	background: transparent;
+    border-radius: 20px;
+
+    
+}
+.card3{
+	position: absolute;
+	width: 350px;
+	height: 480px;
+	text-align: center;
+	transform-style: preserve-3d;
+	transition: all 0.8s ease;
+    border-radius: 20px;
+
+}
+.card3:hover{
+	transform: rotateY(180deg);
+}
+.front3{
+	position: absolute;
+	width: 350px;
+	height: 480px;
+	backface-visibility: hidden;
+	background:yellow ;
+    border-radius: 20px;
+}
+.back3{
+	position: absolute;
+	width: 350px;
+	height: 480px;
+	backface-visibility: hidden;
+	background:#45de52 ;
+	transform: rotateY(180deg);
+    text-align: center;
+    border-radius: 20px;
+}
+.poem3{
+    padding-top: 30px;
+    font-family: 'Patrick Hand';
+}
+.img3{
+   
+    height:360px;
+}
+.imagefor3{
+    margin-top: 150px;
+    margin-left: 80px;
+    padding-bottom: 0;
+}
+
+.fourth{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.maincontainer4{
+	position: relative;
+	width: 370px;
+	height: 460px;
+	margin-top: 100px;
+	margin-left: 80px;
+	background: transparent;
+    border-radius: 20px;
+    
+}
+.card4{
+	position: absolute;
+	width: 370px;
+	height: 460px;
+	text-align: center;
+	transform-style: preserve-3d;
+	transition: all 0.8s ease;
+    border-radius: 20px;
+
+}
+.card4:hover{
+	transform: rotateY(180deg);
+}
+.front4{
+	position: absolute;
+	width: 370px;
+	height: 460px;
+	backface-visibility: hidden;
+	background:#45de52 ;
+    border-radius: 20px;
+}
+.back4{
+	position: absolute;
+	width: 370px;
+	height: 460px;
+	backface-visibility: hidden;
+	background:yellow ;
+	transform: rotateY(180deg);
+    text-align: center;
+    border-radius: 20px;
+}
+
+.poem4{
+    padding-top: 30px;
+    font-family: 'Patrick Hand';
+}
+.imagefor4{
+    padding-right: 100px;
+    padding-top: 30px;
+}
+.img4{
+    height:600px;
+
+}
+
+.fifth{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.maincontainer5{
+	position: relative;
+	width: 370px;
+	height: 510px;
+	margin-top: 100px;
+	margin-right: 80px;
+	background: transparent;
+    border-radius: 20px;
+    
+}
+.card5{
+	position: absolute;
+	width: 370px;
+	height: 510px;
+	text-align: center;
+	transform-style: preserve-3d;
+	transition: all 0.8s ease;
+    border-radius: 20px;
+
+}
+.card5:hover{
+	transform: rotateY(180deg);
+}
+.front5{
+	position: absolute;
+	width: 370px;
+	height: 510px;
+	backface-visibility: hidden;
+	background:yellow ;
+    border-radius: 20px;
+}
+.back5{
+	position: absolute;
+	width: 370px;
+	height: 510px;
+	backface-visibility: hidden;
+	background:#45de52 ;
+	transform: rotateY(180deg);
+    text-align: center;
+    border-radius: 20px;
+}
+
+/*        About Me       */
+.aboutmep{
+    min-height: 80vh;
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+.myself{
+    object-fit: contain;
+    width: 35%;
+    margin: 0 auto;
+}
+.pic{
+    justify-content: center;
+    padding-top: 30px;
+
+}
+
+.fewlines{
+    color: white;
+   padding: 5% 10%;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .myself{
+        object-fit: contain;
+        width: 80%;
+        margin: 0 auto;
+    }
+    #about a{
+        margin-right: 20px;
+        text-decoration: none;
+        font-size: 1.1rem;
+        font-family: 'Yanone Kaffeesatz';
+        color: brown;
+    }
+    #index a{
+        margin-right: 20px;
+        text-decoration: none;
+        font-size: 1.1rem;
+        font-family: 'Yanone Kaffeesatz';
+        color: brown;
+    }
+    #read a{
+        margin-right: 20px;
+        text-decoration: none;
+        font-size: 1.1rem;
+        font-family: 'Yanone Kaffeesatz';
+        color: brown;
+    }
+    .navbar-brand{
+        font-size: 1.7rem;
+        font-family: 'Yanone Kaffeesatz';
+        padding-left: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .first{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .second{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+    .third{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .fourth{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+    .fifth{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .img1{
+        margin:0 auto;
+        object-fit: contain;
+        width:80%;
+    }
+    .img2{
+        margin:0 auto;
+        object-fit: contain;
+        width:80%;
+    }
+    .img3{
+        margin:0 auto;
+        object-fit: contain;
+        width:80%;
+    }
+    .img4{
+        margin:0 auto;
+        object-fit: contain;
+        width:80%;
+        height:100%;
+    }
+    .img5{
+        margin:0 auto;
+        object-fit: contain;
+        width:80%;
+    }
+    .maincontainer1{
+        position: relative;
+        width: 80%;
+        height: 480px;
+        margin:10% auto;
+        
+        background: transparent;
+        border-radius: 20px;
+        
+    }
+    .maincontainer2{
+        position: relative;
+        width: 80%;
+        height: 510px;
+        margin:10% auto;
+        
+        background: transparent;
+        border-radius: 20px;
+        
+    }
+    .maincontainer3{
+        position: relative;
+        width: 80%;
+        height: 510px;
+        margin:10% auto;
+        
+        background: transparent;
+        border-radius: 20px;
+        
+    }
+    .maincontainer4{
+        position: relative;
+        width: 80%;
+        height: 510px;
+        margin:10% auto;
+        
+        background: transparent;
+        border-radius: 20px;
+        
+    }
+    .maincontainer5{
+        position: relative;
+        width: 80%;
+        height: 510px;
+        margin:10% auto;
+        
+        background: transparent;
+        border-radius: 20px;
+        
+    }
+    .imagefor1{
+        margin:10% auto 0 auto;
+        text-align: center;
+
+    }
+    .card{
+        width:100%;
+    }
+    .front{
+        width:100%;
+    }
+    .back{
+        width:100%;
+    }
+    .imagefor2{
+        text-align: center;
+        margin:0 auto;
+    }
+    .card2{
+         width:100%;
+    }
+    .front2{
+        width:100%;
+    }
+    .back2{
+        width:100%;
+    }
+    .poem2{
+        font-size:0.96rem;
+    }
+.imagefor3{
+    margin:0 auto;
+    text-align: center;
+}
+.card3{
+    width:100%;
+}
+.front3{
+   width:100%;
+   height:500px;
+}
+.back3{
+   width:100%;
+   height: 500px;
+}
+.imagefor4{
+    padding:0;
+    text-align: center;
+}
+.card4{
+    width:100%;
+}
+.front4{
+   width:100%;
+   height: 480px;
+}
+.back4{
+   width:100%;
+   height: 480px;
+
+}
+.poem4{
+    font-size: 0.94rem;
+}
+.imagefor5{
+    text-align: center;
+}
+.card5{
+    width:100%;
+}
+.front5{
+   width:100%;
+   height: 530px;
+}
+.back5{
+   width:100%;
+   height: 530px;
+
+}
+.pic{
+    padding-top: 15%;
+}
+.written{
+    margin-bottom:10%;
+}
+
+  }
